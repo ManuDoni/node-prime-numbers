@@ -1,0 +1,16 @@
+{
+    "name": "manudoni-prime-numbers",
+    "version": "1.0.0",
+    "description": "Prime numbers generator REST API made with Node (my first Node API)",
+    "repository": "github:manudoni/node-prime-numbers",
+    "license": "Unlicense",
+    "author": "Manuel Donini",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "debug": "node --inspect-brk app.js"
+    },
+    "dependencies": {
+        "express": "^4.16.1"
+    }
+}
